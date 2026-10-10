@@ -1,0 +1,15 @@
+{
+  "name": "wabot-edabu",
+  "version": "1.1.0",
+  "description": "Bot WhatsApp FAQ Edabu BPJS Kesehatan (tidak resmi) + fallback Gemini",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "latest"
+  }
+}
